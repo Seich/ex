@@ -1,0 +1,6 @@
+endpoint: http://localhost:12933
+
+GET /students: students
+GET /student/$students.body.0.StudentId: student
+GET /exams: exams
+GET /exam/$exams.body.0.ExamId: exam
